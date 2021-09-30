@@ -2,6 +2,19 @@
 <html lang="en">
 <head>
   <title>Animals</title>
+  <style>
+    
+    tr:nth-child(even)
+    {
+      background-color: rgb(44, 44, 44);
+      color:cornflowerblue;
+    }
+    td:hover
+    {
+      color: red;
+    }
+  </style>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -52,6 +65,58 @@
             <img src="nightingale.jpg" class="img-thumbnail" alt="Nightingale image" height="360" width="360">
           </div> 
           <br>
+          <table class="table" style="border: 1px solid black;">
+            <caption style="color: blueviolet;font-family: monospace; ">Table of cars and cities.</caption>
+            <thead style="background-color:palegreen;">
+
+          <tr>
+            <th scope="col"><b>Letter</b></th>
+            <th scope="col"><b>Animal</b></th>
+            <th scope="col"><b>City</b></th>
+            <th scope="col"><b>Car</b></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">G</td>
+            <td>Giraffe</td>
+            <td>Garland</td>
+            <td>Geely</td>
+          </tr>
+          <tr>
+            <td scope="row">I</td>
+            <td>Indian Elephant</td>
+            <td>Indiana</td>
+            <td>Innova</td>
+          </tr>
+          <tr>
+            <td scope="row">N</td>
+            <td>Nightingale</td>
+            <td>Niagara</td>
+            <td>Nissan</td>
+          </tr>
+          <tr>
+            <td scope="row">J</td>
+            <td>jackrabbits</td>
+            <td>Jacksonville</td>
+            <td>Jaguar</td>
+          </tr>
+          <tr>
+            <td scope="row">U</td>
+            <td>Urial</td>
+            <td>Utrecht</td>
+            <td>Uniti</td>
+          </tr>
+          <tr>
+            <td scope="row">P</td>
+            <td>Panther</td>
+            <td>Pittsburgh</td>
+            <td>Porsche</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    
         
       
       </body>
